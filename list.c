@@ -54,10 +54,23 @@ void * nextList(List * list) {
 }
 
 void * lastList(List * list) {
+    list->current = list->tail;
+    if (list->tail) {
+        return list->tail->data;
+    }
+
     return NULL;
 }
 
 void * prevList(List * list) {
+    if (list->current == NULL) {
+        return NULL;
+    }
+
+    Node *node = list->current->prev;
+    list->current = node;
+
+    if (node) return node->data;
     return NULL;
 }
 
