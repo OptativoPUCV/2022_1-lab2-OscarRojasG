@@ -30,3 +30,9 @@ vie., 24 de mar. de 2023  0:31:15:
  tests:  9|3
 total_score: 35/70
 e59f1c0
+vie., 24 de mar. de 2023  0:35:52: 
+ list.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ tests:  9|3
+total_score: 35/70
+8ee77e2
