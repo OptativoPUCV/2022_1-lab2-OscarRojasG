@@ -2,3 +2,9 @@ vie., 24 de mar. de 2023  0:23:00:
  tests:  0|6
 total_score: 0/70
 be83149
+vie., 24 de mar. de 2023  0:24:06: 
+ list.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+eb75ab4
