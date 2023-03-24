@@ -8,3 +8,8 @@ vie., 24 de mar. de 2023  0:24:06:
  tests:  1|5
 total_score: 10/70
 eb75ab4
+vie., 24 de mar. de 2023  0:27:59: 
+ list.c | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+ tests:  0|0
+475cd46

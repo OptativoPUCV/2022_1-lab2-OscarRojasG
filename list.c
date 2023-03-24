@@ -34,11 +34,21 @@ List * createList() {
 }
 
 void * firstList(List * list) {
+    list->current = list->head;
+    if (list->head) {
+        return list->head->data;
+    }
     return NULL;
 }
 
 void * nextList(List * list) {
-    return NULL;
+    if (list->current == NULL) {
+        return NULL;
+    }
+
+    Node *node = list->current->next;
+    list->current = node;
+    return node->data;
 }
 
 void * lastList(List * list) {
