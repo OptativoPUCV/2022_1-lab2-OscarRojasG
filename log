@@ -18,3 +18,9 @@ vie., 24 de mar. de 2023  0:28:41:
  1 file changed, 3 insertions(+), 1 deletion(-)
  tests:  0|0
 45bc610
+vie., 24 de mar. de 2023  0:29:00: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|4
+total_score: 25/70
+fc34648

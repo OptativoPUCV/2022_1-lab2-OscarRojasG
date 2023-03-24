@@ -49,7 +49,7 @@ void * nextList(List * list) {
     Node *node = list->current->next;
     list->current = node;
 
-    if (node->data) return node->data;
+    if (node) return node->data;
     return NULL;
 }
 
